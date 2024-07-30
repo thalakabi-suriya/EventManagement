@@ -1,0 +1,75 @@
+.nav {
+  background: #79AEB1;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.nav-link:hover {
+  color: #ddd;
+  text-decoration: underline;
+}
+
+.nav-user {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.dropdown-link {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.dropdown-link:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.logout-button:hover {
+  color: #ddd;
+}

@@ -1,0 +1,34 @@
+.event-creation {
+    padding: 40px 0;
+  }
+  
+  .page-title {
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .event-card {
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-title {
+    color: #555;
+  }
+  
+  .event-image {
+    border-bottom: 3px solid #1976d2;
+  }
+  
+  .MuiDialog-paper {
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
